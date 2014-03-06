@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35ec5390-de06-47f8-a9e8-617f8f3f98bf" name="Default" comment="" />
+    <list default="true" id="35ec5390-de06-47f8-a9e8-617f8f3f98bf" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learn-java.ipr" afterPath="$PROJECT_DIR$/learn-java.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learn-java.iws" afterPath="$PROJECT_DIR$/learn-java.iws" />
+    </list>
     <ignored path="learn-java.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,6 +70,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ModuleEditorState">
     <option name="LAST_EDITED_MODULE_NAME" />
     <option name="LAST_EDITED_TAB_NAME" />
@@ -83,7 +89,7 @@
       <profile-state />
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -161,6 +167,10 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
@@ -404,12 +414,12 @@
       <changelist id="35ec5390-de06-47f8-a9e8-617f8f3f98bf" name="Default" comment="" />
       <created>1394072491427</created>
       <updated>1394072491427</updated>
-      <workItem from="1394072492030" duration="32000" />
+      <workItem from="1394072492030" duration="138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32000" />
+    <option name="totallyTimeSpent" value="138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="313" y="22" width="1367" height="953" extended-state="0" />
