@@ -1,4 +1,4 @@
-package src.learn.java;
+package learn.java;
 
 class Array{
 	private int temp[] = null ; // 
@@ -28,12 +28,12 @@ public class ArrayDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-        Array arr = new Array();
+        Array arr = new Array(5);
         
         System.out.println(arr.add(33));
        
 	}
 	
-	public static void print(int i[]){
+
 
 }

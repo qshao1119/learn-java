@@ -1,4 +1,4 @@
-package src.learn.java;
+package learn.java;
 class Link{
 	class Node{
 		private String name ;//node name
@@ -6,7 +6,7 @@ class Link{
 		public Node(String name){
 			this.name = name ;
 		}
-		public Sring getName(){
+		public String getName(){
 			return this.name;
 		}
 		public void setNext(Node next){
@@ -23,12 +23,12 @@ class Link{
 			}
 		}
 		public void printNode(){
-			System.out.print(this.name + " --> ")
+			System.out.print(this.name + " --> ") ;
 		}
 	}
 	private Node root ; // root node
 	public void add(String name){
-		Node newnNode = new Node(name) ; // creat new node
+		Node newNode = new Node(name) ; // creat new node
 	
 		if(this.root == null){// no root node
 			this.root = newNode ;
@@ -43,11 +43,11 @@ public class NodeDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Node root = new Node("root node");
-		Node n1 = new Node("First node");
-		Node n2 = new Node("Second node");
-		Node n3 = new Node("Third node");
-		Node n4 = new Node("Fourth node");
+		Link.Node root = new Link.Node("root");
+        Link.Node n1 = new Link.Node("First");
+        Link.Node n2 = new Link.Node("Second");
+        Link.Node n3 = new Link.Node("Third");
+        Link.Node n4 = new Link.Node("Fourth");
 		
 		root.setNext(n1);
 		n1.setNext(n2);
